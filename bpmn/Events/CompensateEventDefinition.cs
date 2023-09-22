@@ -1,6 +1,6 @@
 namespace Raziee.Bpms.Bpmn;
 
-public class CompensateEventDefinition
+public class CompensateEventDefinition : IEventDefinition
 {
 
 }

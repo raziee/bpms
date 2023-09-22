@@ -1,6 +1,6 @@
 namespace Raziee.Bpms.Bpmn;
 
-public class MessageEventDefinition	
+public class MessageEventDefinition : IEventDefinition
 {
 
 }

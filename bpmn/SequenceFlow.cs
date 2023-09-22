@@ -1,4 +1,12 @@
 ﻿namespace Raziee.Bpms.Bpmn;
+public interface ISequenceFlow :IRootElement{
+    string SourceRef{get;}
+    string TargetRef{get;}
+    bool IsImmediate{get;}
+    IConditionExpression ConditionExpression{get;}
+
+}
+
 public class SequenceFlow
 {
     public string SourceRef { get; set; }

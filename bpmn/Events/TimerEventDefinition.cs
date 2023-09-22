@@ -1,6 +1,6 @@
 namespace Raziee.Bpms.Bpmn;
 
-public class TimerEventDefinition	
+public class TimerEventDefinition : IEventDefinition
 {
 
 }

@@ -1,6 +1,6 @@
 namespace Raziee.Bpms.Bpmn;
 
-public class CancelEventDefinition
+public class CancelEventDefinition : IEventDefinition
 {
 
 }

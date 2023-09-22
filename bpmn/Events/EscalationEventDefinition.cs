@@ -1,6 +1,6 @@
 namespace Raziee.Bpms.Bpmn;
 
-public class EscalationEventDefinition	
+public class EscalationEventDefinition : IEventDefinition
 {
 
 }
