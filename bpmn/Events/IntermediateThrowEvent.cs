@@ -2,6 +2,7 @@ namespace Raziee.Bpms.Bpmn;
 
 public class IntermediateThrowEvent : IThrowEvent
 {
+    public IntermediateThrowEventType Type { get; set; }
     public DataInput DataInput => throw new NotImplementedException();
 
     public DataInputAssociation DataInputAssociation => throw new NotImplementedException();

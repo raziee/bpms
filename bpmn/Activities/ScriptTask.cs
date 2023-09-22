@@ -1,7 +1,12 @@
 namespace Raziee.Bpms.Bpmn;
 
-public class ScriptTask
+public class ScriptTask : IScriptTask
 {
-    public required string Id { get; set; }
-    public required Script Script { get; set; }
+    public string ScriptFormat => throw new NotImplementedException();
+
+    public Script Script => throw new NotImplementedException();
+
+    public string Id => throw new NotImplementedException();
+
+    public string Name => throw new NotImplementedException();
 }

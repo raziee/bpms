@@ -2,6 +2,7 @@ namespace Raziee.Bpms.Bpmn;
 
 public class EndEvent : IThrowEvent
 {
+    public EndEventType Type { get; set; }
     public DataInput DataInput => throw new NotImplementedException();
 
     public DataInputAssociation DataInputAssociation => throw new NotImplementedException();

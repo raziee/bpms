@@ -2,6 +2,7 @@ namespace Raziee.Bpms.Bpmn;
 
 public class IntermediateCatchEvent : ICatchEvent
 {
+    public IntermediateCatchEventType Type { get; set; }
     public DataOutput DataOutput => throw new NotImplementedException();
 
     public DataOutputAssociation DataOutputAssociation => throw new NotImplementedException();
